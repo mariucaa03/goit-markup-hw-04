@@ -9,6 +9,7 @@ body {
   background-color: var(--white);
 
   margin: 0 auto;
+  max-width: 1440px;
 }
 
 ul,
@@ -133,6 +134,18 @@ ol {
   color: #404bbf;
 }
 /* Main */
+
+.section-1-background {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/section1backgroung.jpg);
+  /* max-width: 1440px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .main-title {
   padding: 188px 0;
   background-color: #2e2f42;
