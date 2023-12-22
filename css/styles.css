@@ -303,6 +303,7 @@ h2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 8px;
 }
 .our-team-box {
   width: calc((100% - 72px) / 4);
