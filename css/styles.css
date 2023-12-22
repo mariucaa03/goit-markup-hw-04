@@ -522,6 +522,9 @@ h2 {
 .container-footer {
   display: flex;
   align-items: baseline;
+}
+
+.footer-logo-and-description {
   margin-right: 120px;
 }
 
@@ -551,6 +554,7 @@ h2 {
   border-radius: 50%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-social-media-link:hover,
